@@ -1,11 +1,19 @@
 # dir-viewer
 a directory viewer write with electron
 
-#install
-npm install
+# Installing:
 
-#test
+Installation via `npm`:
+
+     npm install
+     
+     
+# usage
+
+## test
+
 npm start
 
-#packager
+## packager
+
 npm run packager
