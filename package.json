@@ -1,0 +1,19 @@
+{
+  "name": "dir-viewer",
+  "version": "1.0.0",
+  "description": "directory viewer with electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager":"electron-packager . dir-viewer --platform=win32 --arch=x64 --icon=icon.ico --out=./out --asar --app-version=0.0.1"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "nielei",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.6",
+    "electron-packager": "^13.1.0"
+  }
+}
