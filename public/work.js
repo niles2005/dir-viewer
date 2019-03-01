@@ -16,7 +16,8 @@ let app = {
   },
   methods: {
     openDir: function(dir) {
-      shell.openItem(dir);
+      //open folder to front
+      shell.showItemInFolder(dir);
     },
     loadPath:function(file) {
       let self = this;
